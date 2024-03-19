@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect('mongodb+srv://aiswaryasangeetha015:cAymiVutSmirZeve@cluster0.bqraikd.mongodb.net/todoapp')
   .then(() => console.log("MongoDB connected..."))
   .catch((err) => console.log(err));
 
