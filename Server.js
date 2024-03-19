@@ -14,7 +14,7 @@ const PORT = 5000;
 // Middleware
 app.use(
   cors({
-    origin: ["https://todoappfrontend-six.vercel.app/"],
+    origin: "https://todoappfrontend-six.vercel.app/",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   })
 );
