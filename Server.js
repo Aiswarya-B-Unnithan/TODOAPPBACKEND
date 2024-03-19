@@ -28,6 +28,6 @@ mongoose
   .then(() => console.log("MongoDB connected..."))
   .catch((err) => console.log(err));
 
-app.use("/api", routes);
+app.use("/", routes);
 
 app.listen(PORT, () => console.log(`Listening at ${PORT}...`));
